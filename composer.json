@@ -1,0 +1,35 @@
+{
+    "name": "samuelbie/helpers",
+    "description": "Just some helpers for laravel",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Samuel Bié",
+            "email": "samuelbie@outlook.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^5.4"
+    },
+    "autoload": {
+        "files": [
+            "src/functions/helpers.php"
+        ],
+        "psr-4": {
+            "samuelbie\\helpers\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "samuelbie\\helpers\\HelpersServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "prefer-stable": true
+}
