@@ -1,9 +1,8 @@
 <?php
-
-namespace samuelbie\helpers;
+namespace Samuelbie\Helpers;
 
 use Illuminate\Support\ServiceProvider;
-use samuelbie\helpers\Console\TraitCommand;
+use Samuelbie\Helpers\Console\TraitCommand;
 
 class HelpersServiceProvider extends ServiceProvider
 {

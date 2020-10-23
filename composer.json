@@ -19,13 +19,13 @@
             "src/functions/helpers.php"
         ],
         "psr-4": {
-            "samuelbie\\helpers\\": "src"
+            "Samuelbie\\Helpers\\": "src"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "samuelbie\\helpers\\HelpersServiceProvider"
+                "Samuelbie\\Helpers\\HelpersServiceProvider"
             ]
         }
     },

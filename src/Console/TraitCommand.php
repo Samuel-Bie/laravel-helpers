@@ -1,5 +1,5 @@
 <?php
-namespace samuelbie\helpers\Console;
+namespace Samuelbie\Helpers\Console;
 
 use Illuminate\Console\GeneratorCommand;
 
@@ -34,7 +34,7 @@ class TraitCommand extends GeneratorCommand
      */
     protected function getStub()
     {
-        return __DIR__ . '/stubs/trait.stub';
+        return __DIR__ . '/Stubs/trait.stub';
     }
 
     /**
