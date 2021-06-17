@@ -11,12 +11,11 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "php": "^5.5 || ^7.0 || ^8.0",
-        "nesbot/carbon": "^2.17"
+        "nesbot/carbon": "^2.49"
     },
     "autoload": {
         "files": [
-            "src/functions/helpers.php"
+            "src/Functions/helpers.php"
         ],
         "psr-4": {
             "Samuelbie\\Helpers\\": "src"

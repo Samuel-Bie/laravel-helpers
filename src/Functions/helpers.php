@@ -41,7 +41,7 @@ function getPercentageValue(float $total, float $percentage): float
 
 
 /**
- * Generates and array of hours (strings) betweem to Carbon dates
+ * Generates and array of hours (strings) between to Carbon dates
  * hoursBetween
  *
  * @param  Carbon\Carbon $from
@@ -65,7 +65,7 @@ function hoursBetween(Carbon $from, Carbon $to): array
 
 
 /**
- * Generates and array of days (strings) betweem to Carbon dates
+ * Generates and array of days (strings) between to Carbon dates
  * hoursBetween
  *
  * @param  Carbon\Carbon $from
@@ -88,7 +88,7 @@ function daysBetween(Carbon $from, Carbon $to): array
 }
 
 /**
- * Generates and array of weeks (strings) betweem to Carbon dates
+ * Generates and array of weeks (strings) between to Carbon dates
  * hoursBetween
  *
  * @param  Carbon\Carbon $from
@@ -112,7 +112,7 @@ function weeksBetween(Carbon $from, Carbon $to): array
 
 
 /**
- * Generates and array of months (strings) betweem to Carbon dates
+ * Generates and array of months (strings) between to Carbon dates
  * hoursBetween
  *
  * @param  Carbon\Carbon $from
@@ -135,7 +135,7 @@ function monthsBetween(Carbon $from, Carbon $to): array
 }
 
 /**
- * Generates and array of years (strings) betweem to Carbon dates
+ * Generates and array of years (strings) between to Carbon dates
  * hoursBetween
  *
  * @param  Carbon\Carbon $from

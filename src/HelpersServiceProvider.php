@@ -1,4 +1,5 @@
 <?php
+
 namespace Samuelbie\Helpers;
 
 use Illuminate\Support\ServiceProvider;
@@ -14,7 +15,6 @@ class HelpersServiceProvider extends ServiceProvider
 
     public function register()
     {
-
     }
 
     private function registerCommands()
